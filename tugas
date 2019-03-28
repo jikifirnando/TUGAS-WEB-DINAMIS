@@ -1,0 +1,47 @@
+<?php
+
+// arraytotable.php
+$array = array("Rian ardiando","agung ario","babas kiye","sandy artasama","jayen ponkey");
+echo "<table border='1'";
+echo "<tr><th>Nama Mahasiswa kreatif</th></tr>";
+foreach ($array as $data) {
+ 
+	echo "<tr><td>". $data ."</td></tr>";
+}
+echo "</table>";
+echo"</br>";
+
+// arraytotable.php
+$array = array("Soekarno","soeharto","BJ habibi","abdurrahman Wahid","Megawati","Susilo Bambang Yudhoyuno","Joko Widodo");
+echo "<table border='1'";
+echo "<tr><th>Nama Nama presiden RI</th></tr>";
+foreach ($array as $data) {
+ 
+	echo "<tr><td>". $data ."</td></tr>";
+}
+echo "</table>";
+echo"</br>";
+
+
+// arraytotable.php
+$array = array("Muharram","Shafar","Rabi'ul awwal","Rabi'ul akhir","Jumadil Awwal","Jumadil Akhir","Rajab","Sya'ban","Ramadhan");
+echo "<table border='1'";
+echo "<tr><th>Nama Nama Bulan Bulan Di Kalender Hijriyah</th></tr>";
+foreach ($array as $data) {
+ 
+	echo "<tr><td>". $data ."</td></tr>";
+}
+echo "</table>";
+echo"</br>";
+
+
+// arraytotable.php
+$array = array("1. Adam A.S.","2. Idris A.S.","3. Nuh A.S.","4. Hud A.S.","5. Sholeh A.S.","6.Ibrahim A.S.","7. Luth A.S.","8. Ismail A.S.","9. Ishaq A.S.","10. Ya'kub A.S.","11. Yusuf A.S","12. Ayub A.S","13. Suaeb A.S.","14. Musa A.S.","15. Harun A.S.","16. Zulkifli A.S.","17. Daud A.S.","18. Sulaiman A.S.","19. Ilyas A.S.","20. Ilyasa A.S.","21. Yunus A.S.","22. Zakariya A.S.","23. Yahya A.S."."24. Isa A.S.","25. Muhammad SAW.");
+echo "<table border='1'";
+echo "<tr><th>Nama Nama 25 Nabi Dan Rasul</th></tr>";
+foreach ($array as $data) {
+ 
+	echo "<tr><td>". $data ."</td></tr>";
+}
+echo "</table>";
+?>
